@@ -19,9 +19,21 @@ img {
 border-radius: 16px;
 }
 
+main{
+  padding: 24px;
+}
 h1{
   line-height: 140%;
   font-size: 40px;
+ 
+}
+
+section + section {
+  margin-top: 24px;
+}
+
+#about p + p { /* segundo p dentro do about aplica espaço superior de tamanho 12px*/
+  margin-top: 12px;
 }
 
 h2{
@@ -29,6 +41,8 @@ h2{
 }
 h1, h2{
   color: #291B1A;
+   margin-bottom: 4px;
+   line-height: 150%;
 }
 p, li{
   color: #573A37;
